@@ -21,7 +21,7 @@
     <title>Webstudio</title>
   </head>
   <body>
-    <header class="header-class">
+    <!-- <header class="header-class">
       <div class="header-container container">
         <nav class="header-nav">
           <a href="./index.html" class="logo link header-logo">
@@ -60,7 +60,7 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
     <main>
       <section class="hero">
         <div class="container">
@@ -133,6 +133,7 @@
           <ul class="section-list list">
             <li class="doing-items">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img 1 2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Design on PC"
                 width="360"
@@ -141,6 +142,7 @@
             </li>
             <li class="doing-items">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img 2 2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Design on smartphone"
                 width="360"
@@ -149,6 +151,7 @@
             </li>
             <li class="doing-items">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img 3 2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="Design on PC and smartphone"
                 width="360"
@@ -161,194 +164,216 @@
 
       <section class="team">
         <div class="container">
-          <h2 class="title">Our Team</h2>
-          <ul class="section-list list">
-            <li class="team-item">
-              <img
-                src="./images/img4.jpg"
-                alt="Product Designer foto"
-                width="264"
-              />
-              <div class="team-card">
-                <h3 class="subtitle card-align">Mark Guerrero</h3>
-                <p class="text card-align">Product Designer</p>
+          <div class="team-container">
+            <h2 class="title">Our Team</h2>
+            <ul class="section-list list">
+              <li class="team-item">
+                <div class="team-container">
+                  <img
+                    src="./images/img4.jpg"
+                    srcset="./images/img4.jpg 1x, ./images/img 4 2x.jpg 2x"
+                    alt="Product Designer foto"
+                    width="264"
+                  />
+                  <div class="team-card">
+                    <h3 class="subtitle card-align">Mark Guerrero</h3>
+                    <p class="text card-align">Product Designer</p>
 
-                <ul class="team-social">
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                    <ul class="team-social">
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-instagram-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-twitter-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-twitter-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-facebook-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-facebook-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-linkedin-1"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-item">
-              <img
-                src="./images/img5.jpg"
-                alt="Frontend Developer foto"
-                width="264"
-              />
-              <div class="team-card">
-                <h3 class="subtitle card-align">Tom Ford</h3>
-                <p class="text card-align">Frontend Developer</p>
-                <ul class="team-social">
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-1"
+                            ></use></svg
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="team-item">
+                <div class="team-container">
+                  <img
+                    srcset="./images/img5.jpg 1x, ./images/img 5 2x.jpg 2x"
+                    src="./images/img5.jpg"
+                    alt="Frontend Developer foto"
+                    width="264"
+                  />
+                  <div class="team-card">
+                    <h3 class="subtitle card-align">Tom Ford</h3>
+                    <p class="text card-align">Frontend Developer</p>
+                    <ul class="team-social">
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-instagram-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-twitter-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-twitter-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-facebook-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-facebook-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-linkedin-1"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-item">
-              <img src="./images/img6.jpg" alt="Marketing foto" width="264" />
-              <div class="team-card">
-                <h3 class="subtitle card-align">Camila Garcia</h3>
-                <p class="text card-align">Marketing</p>
-                <ul class="team-social">
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-1"
+                            ></use></svg
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="team-item">
+                <div class="team-container">
+                  <img
+                    srcset="./images/img6.jpg 1x, ./images/img 6 2x.jpg 2x"
+                    src="./images/img6.jpg"
+                    alt="Marketing foto"
+                    width="264"
+                  />
+                  <div class="team-card">
+                    <h3 class="subtitle card-align">Camila Garcia</h3>
+                    <p class="text card-align">Marketing</p>
+                    <ul class="team-social">
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-instagram-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-twitter-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-twitter-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-facebook-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-facebook-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-linkedin-1"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-item">
-              <img src="./images/img7.jpg" alt="UI Designer foto" width="264" />
-              <div class="team-card">
-                <h3 class="subtitle card-align">Daniel Wilson</h3>
-                <p class="text card-align">UI Designer</p>
-                <ul class="team-social">
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-instagram-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-1"
+                            ></use></svg
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="team-item">
+                <div class="team-container">
+                  <img
+                    srcset="./images/img7.jpg 1x, ./images/img 7 2x.jpg 2x"
+                    src="./images/img7.jpg"
+                    alt="UI Designer foto"
+                    width="264"
+                  />
+                  <div class="team-card">
+                    <h3 class="subtitle card-align">Daniel Wilson</h3>
+                    <p class="text card-align">UI Designer</p>
+                    <ul class="team-social">
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-instagram-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-twitter-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-twitter-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-facebook-1"
-                        ></use></svg
-                    ></a>
-                  </li>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-facebook-1"
+                            ></use></svg
+                        ></a>
+                      </li>
 
-                  <li class="team-card-item">
-                    <a href="insta" class="team-card-link">
-                      <svg class="team-card-icons" width="16" height="16">
-                        <use
-                          href="./images/icons.svg#icon-linkedin-1"
-                        ></use></svg
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+                      <li class="team-card-item">
+                        <a href="insta" class="team-card-link">
+                          <svg class="team-card-icons" width="16" height="16">
+                            <use
+                              href="./images/icons.svg#icon-linkedin-1"
+                            ></use></svg
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -403,7 +428,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div class="footer-container-lp">
           <a class="logo link footer-logo" href="./index.html"
@@ -468,8 +493,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close" data-modal-close>
           <svg class="close-icon" width="8" height="8">
@@ -553,7 +578,7 @@
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
   </body>
