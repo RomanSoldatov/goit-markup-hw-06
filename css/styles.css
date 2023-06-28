@@ -42,7 +42,7 @@ img {
 .container {
   margin: 0 auto;
   width: 100%;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 .section-list {
   display: flex;
@@ -170,21 +170,21 @@ img {
   align-items: center;
   justify-content: center;
   padding: 0;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   margin-bottom: 32px;
 }
 
-.mobile-menu-close:hover,
+/* .mobile-menu-close:hover,
 .mobile-menu-close:focus {
   background-color: #404bbf;
   border: none;
   fill: var(--main-backgroud-color);
-}
+} */
 
-.mobile-menu-close-icon {
+/* .mobile-menu-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .mobile-menu-close .mobile-menu-close-icon {
   display: flex;
@@ -206,12 +206,12 @@ img {
 .mobile-menu-list-link {
   color: var(--first-main-color);
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mobile-menu-list .link:hover,
-.mobile-menu-list .link:focus {
+
+.mob-current {
   color: var(--second-accent-color);
 }
+
 /* -------------------mob-menu-ADRESS--------- */
 
 .mobile-menu-adress {
@@ -228,20 +228,15 @@ img {
   flex-direction: column;
   gap: 40px;
 }
-.mobile-menu-adress .link:hover,
-.mobile-menu-adress .link:focus {
-  color: var(--accent-color);
-}
+
 .mobile-menu-tel-link {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
-  color: var(--second-main-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--accent-color);
 }
 .mobile-menu-adress-link {
   color: var(--second-main-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -------------------mobile-menu-Team--------- */
@@ -471,7 +466,6 @@ img {
   flex-direction: column;
   gap: 72px;
   align-items: center;
-  padding: 0 15px;
 }
 
 .footer-logo {
@@ -877,10 +871,13 @@ img {
   border-color: var(--accent-color);
 }
 
-@media screen and (max-width: 392px) {
+@media screen and (max-width: 427px) {
   .modal {
     overflow-y: scroll;
     width: calc(100% - 30px);
+  }
+  .mobile-menu-tel-link {
+    font-size: 25px;
   }
 }
 
@@ -1009,6 +1006,9 @@ img {
     }
   }
   /* -------------------Advantages--------- */
+  .subtitle {
+    text-align: left;
+  }
   .advanteges-items {
     width: calc((100% - 24px) / 2);
   }
@@ -1018,6 +1018,9 @@ img {
   }
   .team-item {
     width: calc((100% - 24px) / 2);
+  }
+  .card-align {
+    text-align: center;
   }
   /* -------------------Customers--------- */
   .customers-list {
@@ -1075,6 +1078,7 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding: 0 16px;
   }
   .section-list {
     gap: 24px;
@@ -1160,7 +1164,6 @@ img {
   }
   .card-align {
     text-align: center;
-    margin-bottom: 8px;
   }
   .team-container {
     max-width: 100%;
@@ -1192,5 +1195,8 @@ img {
   }
   .footer-container-icons {
     margin-right: 80px;
+  }
+  .footer-input {
+    margin-right: 24px;
   }
 }
