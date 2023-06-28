@@ -154,6 +154,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
+  padding: 80px 35px 40px 40px;
 }
 /* -------------------mob-menu-button--------- */
 .mobile-menu-close {
@@ -201,7 +202,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin-top: 40px;
 }
 .mobile-menu-list-link {
   color: var(--first-main-color);
@@ -1078,7 +1078,7 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    padding: 0 16px;
+    padding: 0 15px;
   }
   .section-list {
     gap: 24px;
